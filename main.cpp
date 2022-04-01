@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
  *
  * 2. Où se situe le point d’entrée de l’application ?
  *
+ * Dans le main.cpp, "return a.exec();".
  *
  * 3. Que définit le document widget.ui ?
  *
@@ -30,9 +31,11 @@ int main(int argc, char *argv[])
  *
  * 4. Comment accéder aux éléments graphiques définis dans widget.ui dans la classe Widget ?
  *
+ * Avec ui->...
  *
  * 5. De quel type est la variable ui ?
  *
+ * La variable ui, est issu de la classe IHM.
  *
  * 6. Comment faire la différence entre Widget (w) et Widget (ui) ?
  *
